@@ -1,0 +1,53 @@
+import { Review } from '@/types';
+
+export const reviews: Review[] = [
+  {
+    id: 'review-1',
+    author: 'Ing. Pavel Novák',
+    role: 'Vedoucí správy Staroměstského náměstí, Praha',
+    rating: 5,
+    text: 'MlžítkaGo PRO City kompletně změnila atmosféru na našem náměstí. Návštěvníci jsou spokojeni a my jsme ušetřili na provozních nákladech. Topmost produkt, doporučuji všem.',
+    date: '2024-06-15',
+    verified: true,
+    project: 'praha-oldtown-square',
+  },
+  {
+    id: 'review-2',
+    author: 'Mgr. Helena Svobodová',
+    role: 'Správce Parku Lužánky, Brno',
+    rating: 5,
+    text: 'Návštěvníci jsou nadšení. Park je nyní využíván i v nejhorkějších dnech léta. Návštěvnost se zvýšila o 42%.',
+    date: '2024-06-10',
+    verified: true,
+    project: 'brno-luzanky-park',
+  },
+  {
+    id: 'review-3',
+    author: 'Roman Horák',
+    role: 'Vedoucí farmářského trhu, České Budějovice',
+    rating: 5,
+    text: 'Mlžítka jsou zázrak. Prodejci už nechcějí trh opouštět a zákazníci se vrací. Tržby se zvýšily o 28%.',
+    date: '2024-06-05',
+    verified: true,
+    project: 'ceske-budejovice-market',
+  },
+  {
+    id: 'review-4',
+    author: 'Petr Kozák',
+    role: 'Majitel nemovitosti, Ostrava',
+    rating: 5,
+    text: 'Nejlepší investice do zahrady. Terasa je teď v létě opravdu použitelná. MlžítkaGo Garden ECO doporučuji každému.',
+    date: '2024-05-30',
+    verified: true,
+    project: 'ostrava-garden-residential',
+  },
+  {
+    id: 'review-5',
+    author: 'Lenka Moravcová',
+    role: 'Návštěvník Staroměstského náměstí',
+    rating: 4,
+    text: 'Mlžítka opravdu fungují. Je to skvělé na horké dny. Jednu zvětšu poznámku - někdy fouká vítr a mlha se nerozptyluje správně.',
+    date: '2024-06-20',
+    verified: false,
+  },
+];

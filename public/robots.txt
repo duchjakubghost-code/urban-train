@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.next/
+Disallow: /admin/
+Sitemap: https://mlzidla.cz/sitemap.xml
+Crawl-delay: 10

@@ -1,0 +1,25 @@
+.next/
+node_modules/
+.env.local
+.env.*.local
+dist/
+build/
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production
+build/
+dist/
