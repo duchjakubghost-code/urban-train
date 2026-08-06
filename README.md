@@ -1,15 +1,15 @@
 # Mlžítka.cz - Moderní chlazen měst
 
-**Profesionální mlžovací systémy pro města, parky a rezidenci**
+**Profesionální mlžící systémy pro města, městské parky a rezidenční zahrady a terasy**
 
 ## 🌊 O projektu
 
-Webová aplikace pro prezentaci mlžovacích systémů MlžítkaGo - moderního řešení pro evaporativní chlazen veřejných prostranství, měst a rezidencí.
+Webová aplikace pro prezentaci mlžících systémů Mlžítka Go - moderního řešení pro evaporativní chlazení veřejných prostranství, měst a rezidencí.
 
 ## ✨ Funkcionality
 
 - 🏠 **Homepage** - Hero section, produkty, přínosy, realizace
-- 📰 **Blog** - Články o chlazen, evaporativních systémech, inovacích
+- 📰 **Blog** - Články o chlazení, evaporativní mlžící systémy, inovace, nabídky
 - 🎨 **Realizace** - Galerie projektů s detaily a recenzemi
 - 💬 **Recenze** - Sebeření a zobrazení recenzí od klientů
 - 📞 **Kontakt** - Formulář pro objednávky a konzultace
@@ -19,15 +19,15 @@ Webová aplikace pro prezentaci mlžovacích systémů MlžítkaGo - moderního 
 
 - **Next.js 14** - React framework
 - **TypeScript** - Type safety
-- **Tailwind CSS** - Styling
-- **Next-SEO** - SEO optimalizace
-- **React Icons** - Ikony
+- **Tailwind CSS** - Styling and brand design
+- **Next-SEO** - SEO optimalizace, post-type
+- **React Icons** - Ikony, info hub
 
 ## 📁 Struktura projektu
 
 ```
 ├── src/
-│   ├── components/      # React komponenty (Hero, Products, Blog, atd.)
+│   ├── components/      # React komponenty (Hero, Products, Blog, reference, section)
 │   ├── pages/          # Next.js stránky
 │   ├── data/           # Datové struktury (produkty, články, projekty)
 │   ├── types/          # TypeScript typy
@@ -45,16 +45,16 @@ Webová aplikace pro prezentaci mlžovacích systémů MlžítkaGo - moderního 
 
 ## 📊 Přínosy
 
-- ⚡ 70% nižší energetické náklady
-- 💧 89% úspora vody
-- ❤️ Zlepšení zdraví a pohody
-- 🔧 Snadná instalace
+- ⚡ Bez čerpadla
+- 💧 69% úspora vody
+- ❤️ Zlepšení klima, zdraví a pohody
+- 🔧 Snadná a rychlá instalace
 - 🌱 Ekologické řešení
 - 🚀 AI Autopilot pro prioritizaci
 
 ## 📚 Blog
 
-- Jak funguje evaporativní chlazen
+- Jak funguje evaporativní chlazení
 - Pravda o úsporě vody
 - Letní teplotn stres ve městech
 - Turismus a atraktivita měst

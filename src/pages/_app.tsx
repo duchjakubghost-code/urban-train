@@ -7,8 +7,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        titleTemplate="%s | Mlžítka - Moderní chlazen měst"
-        defaultTitle="Mlžítka pro města - Ekologické chlazen bez mokrého oblečení"
+        titleTemplate="%s | Mlžítka - Moderní chlazení měst"
+        defaultTitle="Mlžítka pro města - Ekologické chlazení bez mokrého oblečení"
         description="Profesionální mlžovací systémy pro města, parky a rezidenci. Úspora vody až 89%, energie až 70%. Připojení na vodovod 3-8 bar."
         canonical="https://mlzidla.cz"
         openGraph={{
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               url: 'https://mlzidla.cz/og-image.jpg',
               width: 1200,
               height: 630,
-              alt: 'Mlžítka - Moderní chlazen měst',
+              alt: 'Mlžítka - Moderní chlazení měst',
               type: 'image/jpeg',
             },
           ],
