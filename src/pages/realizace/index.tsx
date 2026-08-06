@@ -73,7 +73,7 @@ const Projects = () => {
 
                     {/* Testimonial */}
                     <div className="bg-water-50 rounded-lg p-4 border border-water-200">
-                      <p className="text-sm italic text-gray-700 mb-2">"<span className="line-clamp-2">{project.testimonial.quote}</span>"</p>
+                      <p className="text-sm text-gray-700 mb-2">"<span className="line-clamp-2">{project.testimonial.quote}</span>"</p>
                       <p className="text-xs font-semibold text-water-600">{project.testimonial.author}</p>
                     </div>
                   </div>

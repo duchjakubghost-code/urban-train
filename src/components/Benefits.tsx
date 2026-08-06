@@ -1,5 +1,8 @@
 import React from 'react';
 import { benefits } from '@/data/benefits';
+import { DefaultSeo } from 'next-seo';
+import type { AppProps } from 'next/app';
+import React from 'react';
 
 export const Benefits: React.FC = () => {
   return (
@@ -39,3 +42,35 @@ export const Benefits: React.FC = () => {
     </section>
   );
 };
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <DefaultSeo
+        titleTemplate="%s | Mlžítka - Moderní mlžné ochlazování měst"
+        defaultTitle="Mlžítka pro města - Ekologické chlazení bez mokrého oblečení"
+        description="Profesionální mlžící systémy pro města, parky a rezidence. Úspora vody až 89%, energie až 70%. Připojení na vodovod 3-8 bar."
+        canonical="https://mlzidla.cz"
+        openGraph={{
+          type: 'website',
+          locale: 'cs_CZ',
+          url: 'https://mlzidla.cz',
+          site_name: 'Mlžítka',
+          images: [
+            {
+              url: 'https://mlzidla.cz/og-image.jpg',
+              width: 1200,
+              height: 630,
+              alt: 'Mlžítka - Moderní chlazení měst',
+              type: 'image/jpeg',
+            },
+          ],
+        }}
+        twitter={{
+          handle: '@mlzidlacz',
+          cardType: 'summary_large_image',
+        }} />
+      <Component {...pageProps} />
+    </>
+  );
+}
+export default MyApp;
